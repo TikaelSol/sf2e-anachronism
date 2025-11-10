@@ -28,7 +28,20 @@
       "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail a Will saving throw against a mental effect.</p><hr /><p>You center your thoughts and focus your mind, shaking off emotional turmoil and harmful mental intrusions. Reroll the triggering saving throw and use the better result.</p>",
       "gm": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "will"
+        ],
+        "outcome": [
+          "criticalFailure",
+          "failure"
+        ],
+        "text": "{item|description}",
+        "title": "<span class=\"action-glyph\">F</span> {item|name}"
+      }
+    ],
     "slug": "center-thoughts",
     "_migration": {
       "version": 0.94,
