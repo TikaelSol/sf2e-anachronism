@@ -32,7 +32,7 @@
     "level": {
       "value": 0
     },
-    "quantity": 1,
+    "quantity": 10,
     "baseItem": null,
     "bulk": {
       "value": 0
@@ -80,8 +80,8 @@
     "usage": {
       "value": "other"
     },
-    "stackGroup": null,
-    "spell": null
+    "spell": null,
+    "stackGroup": null
   },
   "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/red-rounds.webp",
   "flags": {},
@@ -89,9 +89,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "folder": "F6h7fO0Z7cgQBVRD",
   "ownership": {
