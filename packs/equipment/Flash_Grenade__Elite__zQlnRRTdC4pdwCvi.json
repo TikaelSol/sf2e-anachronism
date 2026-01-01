@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Area Fire</p><p><strong>Critical</strong> dazzled for 2 rounds</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[burst|distance:5] to attempt a @Check[fortitude|against:class] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Area Fire</p><p><strong>Critical</strong> @UUID[Actor.GQkhsQNyNDtb8ce9.Item.9vqtuJWNCDbdrI0t]{Blinded} for 2 rounds</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[burst|distance:15] to attempt a @Check[fortitude|against:class] save. On a failure, the creature is @UUID[Actor.GQkhsQNyNDtb8ce9.Item.9vqtuJWNCDbdrI0t]{Blinded} for 1 round, then @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
     },
     "rules": [],
     "slug": "flash-grenade-elite",
@@ -122,7 +122,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.7.4"
+    "systemVersion": "7.8.0"
   },
   "_id": "zQlnRRTdC4pdwCvi",
   "_key": "!items!zQlnRRTdC4pdwCvi"

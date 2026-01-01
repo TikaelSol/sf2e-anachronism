@@ -26,7 +26,10 @@
         "mental"
       ],
       "rarity": "common",
-      "traditions": []
+      "traditions": [
+        "divine",
+        "occult"
+      ]
     },
     "publication": {
       "title": "Starfinder Player Core",
